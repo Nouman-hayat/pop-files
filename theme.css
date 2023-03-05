@@ -26,8 +26,8 @@ body{
 .loader-inner img {
 	width: 100%;
 }
-.model2-wrapper .model1-wrapper{
-    margin: 0 auto;
+.model2-wrapper .modal.show .modal-dialog, .model1-wrapper .modal.show .modal-dialog{
+   margin:  0 auto;
     
 }
 .app-modal {
@@ -213,5 +213,24 @@ font-weight: 500;
     .locker-popup-wrapper{
         width: 300px;
     
+}
+.locker-popup-inner h1{
+    font-size: 20px;
+    padding: 20px 0;
+   
+}
+.locker-popup-inner p{
+    font-size: 15px;
+    
+}
+.locker-popup-inner a{
+    
+    font-size: 13px;
+   
+}
+.locker-popup-inner small{
+    
+    font-size: 13px;
+   
 }
  }
