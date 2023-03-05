@@ -26,12 +26,15 @@ body{
 .loader-inner img {
 	width: 100%;
 }
-
+.model2-wrapper .model1-wrapper{
+    margin: 0 auto;
+    
+}
 .app-modal {
 	max-width: 315px;
-	display: grid;
-	place-items: center;
-	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*  model 1*/
@@ -47,10 +50,12 @@ body{
 .app-modal .title {
 	font-size: 24px;
 	font-weight: bold;
+    text-align: center;
 }
 
 .app-modal .description {
 	font-size: 17px;
+    text-align: center;
 }
 
 .app-modal .modal-body {
