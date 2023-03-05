@@ -18,7 +18,7 @@
         </div>
     </div>
 
-<div>
+<div class="main-wrapper blur-bg">
     <header class="header ">
     <div class="image-wrapper">
         <img src="./down.png" alt="">
@@ -63,6 +63,7 @@
         Launch static backdrop modal
     </button>
 
+   
     <!-- Modal -->
     <div class="model1-wrapper">
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -118,7 +119,9 @@
                             </div>
                             <div class="col-12 mt-3">
                                 <button data-bs-toggle="modal" data-bs-target="#exampleModal2" type="button"
-                                    class="btn btn-sm w-100 py-2">
+                                    class="btn btn-sm w-100 py-2"
+                                    onclick="removeblur()"
+                                    >
                                     GO
                                 </button>
                             </div>
@@ -145,7 +148,9 @@
              var triggerBtn = document.getElementById("trigger-btn").click()
         }
 
-       
+       function removeblur(){
+        document.getElementsByClassName("main-wrapper")[0].classList.remove("blur-bg")
+       }
     </script>
 </body>
 

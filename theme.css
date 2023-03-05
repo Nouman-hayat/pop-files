@@ -26,6 +26,7 @@ body{
 .loader-inner img {
 	width: 100%;
 }
+
 .model2-wrapper .modal.show .modal-dialog, .model1-wrapper .modal.show .modal-dialog{
    margin:  0 auto;
     
@@ -72,7 +73,10 @@ body{
 .model2-wrapper .model1-image {
 	width: 100%;
 }
-
+.blur-bg{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
 /* header */
 .header {
 	background: #f9fafb;
@@ -86,6 +90,7 @@ body{
 	width: 100%;
 	animation: breath 3s ease-out infinite normal;
 }
+
 @keyframes breath {
 	0% {
 		transform: scale(1);
