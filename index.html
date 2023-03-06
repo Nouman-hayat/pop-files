@@ -1,157 +1,297 @@
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./theme.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-        <link rel="stylesheet" href="./theme.css">
-</head>
+	<body onload="pageloader()">
+		<div id="loader-wrapper">
+			<div class="loader-inner">
+				<img src="./giphy.gif" alt="" />
+			</div>
+		</div>
 
+		<div class="main-wrapper blur-bg">
+			<header class="header">
+				<div class="image-wrapper">
+					<img src="./down.png" alt="" />
+				</div>
+			</header>
+			<div class="bottom-bar">
+				<h1>Installer</h1>
+				<span>by DevTeam</span>
+			</div>
 
-<body onload="pageloader()">
-    <div id="loader-wrapper">
-        <div class="loader-inner">
-            <img src="./giphy.gif" alt="" />
-        </div>
-    </div>
+			<div class="youtube-link-section py-2">
+				<p>Download the additional files below to continue</p>
+				<a href="youtube.com"> Having Trouble? Youtube Watch This Tutorial</a>
+			</div>
 
-<div class="main-wrapper blur-bg">
-    <header class="header ">
-    <div class="image-wrapper">
-        <img src="./down.png" alt="">
-    </div>
-    
-    </header>
-    <div class="bottom-bar">
-      <h1>Installer</h1>  
-      <span>by DevTeam</span>
-    </div>
-    
-    <div class="youtube-link-section py-2">
-        <p>Download the additional files below to continue</p>
-        <a href="youtube.com"> Having Trouble? Youtube Watch This Tutorial</a>
-    </div>
-    
-    
-    <div class="locker-wrapper">
-    <div class="locker-popup-wrapper">
-        <div class="locker-popup-inner">
-            <h1>Human Verification</h1>
-    
-            <p>Unlocking will allow access to the premium content</p> 
-    
-            <a href="https://thiglupssurvey.space/finance-survey.html?offer_id=7636&geo=PK&oaid=4c9d17949cf146d399283e491c100e6a&s=656286195757883618&z=5668023&var=877_179636&campaignid=6546902&b=16491385&ymid=656286195757883618&var_3={var_3}&testinapp=5223509&abtest=2019222">Take a Servey and earn from home</a>
-            <a href="https://campaignportal.tapmad.com/dcb-1009-general-promotion-na-na-7-/63f5bc78388bb87111d1143b?utm_source=trackier&utm_medium=affiliate&pub=72&subpub=877_179636&clickid=6404c5bc5b9fe30346abaa51">یہاں بہترین فلم دیکھیں!</a>
-            <button>
-    
-                <div class="spinner-border text-light " role="status">
-      <span class="visually-hidden">Loading...</span>
-    </div>
-    Checking Completion
-            </button>
-            <small>Complete 4 more offer(s) to Continue</small>
-        </div>
-    </div>
-    </div>
-    
-</div>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary d-none" id="trigger-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Launch static backdrop modal
-    </button>
+			<div class="locker-wrapper">
+				<div class="locker-popup-wrapper">
+					<div class="locker-popup-inner">
+						<h1>Human Verification</h1>
 
-   
-    <!-- Modal -->
-    <div class="model1-wrapper">
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered app-modal">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="model1-image">
-                                    <img src="./down.png" alt="Main Image" />
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="title mb-2">Missing Files</div>
-                                <div class="description">
-                                    Additional files are required for Installer
-                                </div>
-                            </div>
-                            <div class="col-12 mt-3">
-                                <button data-bs-toggle="modal" data-bs-target="#staticBackdrop2" type="button"
-                                    class="btn btn-sm w-100 py-2">
-                                    GO
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						<p>Unlocking will allow access to the premium content</p>
 
-     <div class="model2-wrapper">
-        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered app-modal">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="title mb-2">How to install</div>
-                            </div>
-                            <div class="col-12">
-                                <div class="model1-image">
-                                    <img src="./app2.jpg" alt="Main Image" />
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                
-                                <div class="description py-1">
-                                   Carefully read instructions of each additional file to unpack them
-                                </div>
-                            </div>
-                            <div class="col-12 mt-3">
-                                <button data-bs-toggle="modal" data-bs-target="#exampleModal2" type="button"
-                                    class="btn btn-sm w-100 py-2"
-                                    onclick="removeblur()"
-                                    >
-                                    GO
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						<a
+							href="https://thiglupssurvey.space/finance-survey.html?offer_id=7636&geo=PK&oaid=4c9d17949cf146d399283e491c100e6a&s=656286195757883618&z=5668023&var=877_179636&campaignid=6546902&b=16491385&ymid=656286195757883618&var_3={var_3}&testinapp=5223509&abtest=2019222"
+							>Take a Servey and earn from home</a
+						>
+						<a
+							href="https://campaignportal.tapmad.com/dcb-1009-general-promotion-na-na-7-/63f5bc78388bb87111d1143b?utm_source=trackier&utm_medium=affiliate&pub=72&subpub=877_179636&clickid=6404c5bc5b9fe30346abaa51"
+							>یہاں بہترین فلم دیکھیں!</a
+						>
+						<button>
+							<div class="spinner-border text-light" role="status">
+								<span class="visually-hidden">Loading...</span>
+							</div>
+							Checking Completion
+						</button>
+						<small>Complete 4 more offer(s) to Continue</small>
+					</div>
+				</div>
+			</div>
 
-    
+			<div class="locker-mobi-wrapper">
+				
+
+                <a href="https://go.rdrclk.com/aff_c?offer_id=48045&aff_id=179636&aff_sub=ContentLocker&aff_sub2=ndn8ek&aff_sub3=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJvZ2FkcyIsImF1ZCI6InBvc3RiYWNrIiwiaWF0IjoxNjc4MDY0OTY5LCJuYmYiOjE2NzgwNjQ5NjksImRhdGEiOnsiaXAiOiIxODIuMTkxLjEzNi4xMzEiLCJ1YSI6Ik1vemlsbGFcLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDEzXzJfMyBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdFwvNjA1LjEuMTUgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uXC8xMy4wLjMgTW9iaWxlXC8xNUUxNDggU2FmYXJpXC82MDQuMSIsInJlZiI6Imh0dHBzOlwvXC92ZXJpZnlzcXVhcmUuY29tXC8ifX0.Hw_wXgLHpUwI4R88rW53BFe9beIH7pTyMlKW-YLv6mqBNw4NFY6jj7w6WDEkwEA5CdnDl3kMO22q1SfQsC2PZQ&aff_sub4=404-Installer&aff_sub5=404-Installer" class="link-wrapper">
+					<div class="card mb-3 py-3 px-2" style="max-width: 540px">
+						<div class="row g-0 align-items-center">
+							<div class="col-3">
+								<img
+									src="./app_1.png"
+									class="img-fluid rounded-4"
+									alt="..."
+								/>
+							</div>
+							<div class="col-7">
+								<div class="card-body">
+									<h5 class="card-title">Take a survey and earn from home</h5>
+									<p class="card-text">
+										Answer 6 simple questions and unlock your content!
+									</p>
+								</div>
+							</div>
+							<div class="col-2">
+								<button class="btn">Get</button>
+							</div>
+						</div>
+					</div>
+				</a>
 
 
+                <a href="https://go.rdrclk.com/aff_c?offer_id=43434&aff_id=179636&aff_sub=ContentLocker&aff_sub2=ndn8ek&aff_sub3=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJvZ2FkcyIsImF1ZCI6InBvc3RiYWNrIiwiaWF0IjoxNjc4MDY0OTY5LCJuYmYiOjE2NzgwNjQ5NjksImRhdGEiOnsiaXAiOiIxODIuMTkxLjEzNi4xMzEiLCJ1YSI6Ik1vemlsbGFcLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDEzXzJfMyBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdFwvNjA1LjEuMTUgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uXC8xMy4wLjMgTW9iaWxlXC8xNUUxNDggU2FmYXJpXC82MDQuMSIsInJlZiI6Imh0dHBzOlwvXC92ZXJpZnlzcXVhcmUuY29tXC8ifX0.Hw_wXgLHpUwI4R88rW53BFe9beIH7pTyMlKW-YLv6mqBNw4NFY6jj7w6WDEkwEA5CdnDl3kMO22q1SfQsC2PZQ&aff_sub4=404-Installer&aff_sub5=404-Installer" class="link-wrapper">
+					<div class="card mb-3 py-3 px-2" style="max-width: 540px">
+						<div class="row g-0 align-items-center">
+							<div class="col-3">
+								<img
+									src="./app_2.png"
+									class="img-fluid rounded-4"
+									alt="..."
+								/>
+							</div>
+							<div class="col-7">
+								<div class="card-body">
+									<h5 class="card-title">یہاں ایک نیا اسمارٹ فون جیتیں!</h5>
+									<p class="card-text">
+									ابھی نیا سمارٹ فون حاصل کرنے کے لیے پن بھیجیں!
+									</p>
+								</div>
+							</div>
+							<div class="col-2">
+								<button class="btn">Get</button>
+							</div>
+						</div>
+					</div>
+				</a>
 
 
+                <a href="https://campaignportal.tapmad.com/dcb-1009-general-promotion-na-na-7-/63f5bc78388bb87111d1143b?utm_source=trackier&utm_medium=affiliate&pub=72&subpub=877_179636&clickid=64054fdb6dde81034d97aaff" class="link-wrapper">
+					<div class="card mb-3 py-3 px-2" style="max-width: 540px">
+						<div class="row g-0 align-items-center">
+							<div class="col-3">
+								<img
+									src="./app_3.png"
+									class="img-fluid rounded-4"
+									alt="..."
+								/>
+							</div>
+							<div class="col-7">
+								<div class="card-body">
+									<h5 class="card-title">یہاں بہترین فلمیں دیکھیں!</h5>
+									<p class="card-text">
+										ابھی بہترین فلمیں دیکھنے کے لیے اپنا PIN درج کریں!
+									</p>
+								</div>
+							</div>
+							<div class="col-2">
+								<button class="btn">Get</button>
+							</div>
+						</div>
+					</div>
+				</a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script>
-        function pageloader() {
-            var loader = document.getElementById("loader-wrapper");
-            loader.style.display = "none";
-             var triggerBtn = document.getElementById("trigger-btn").click()
-        }
+                 <a href="#" class="link-wrapper">
+					<div class="card mb-3 py-3 px-2" style="max-width: 540px">
+						<div class="row g-0 align-items-center">
+							<div class="col-3">
+								<img
+									src="./icon1.png"
+									class="img-fluid rounded-4"
+									alt="..."
+								/>
+							</div>
+							<div class="col-7">
+								<div class="card-body">
+									<h5 class="card-title">یہاں بہترین فلمیں دیکھیں!</h5>
+									<p class="card-text">
+										ابھی بہترین فلمیں دیکھنے کے لیے اپنا PIN درج کریں!
+									</p>
+								</div>
+							</div>
+							<div class="col-2">
+								<button class="btn">Get</button>
+							</div>
+						</div>
+					</div>
+				</a>
 
-       function removeblur(){
-        document.getElementsByClassName("main-wrapper")[0].classList.remove("blur-bg")
-       }
-    </script>
-</body>
+                <button>
+							<div class="spinner-border text-light" role="status">
+								<span class="visually-hidden">Loading...</span>
+							</div>
+							Checking Completion
+						</button>
+			</div>
+		</div>
+		<!-- Button trigger modal -->
+		<button
+			type="button"
+			class="btn btn-primary d-none"
+			id="trigger-btn"
+			data-bs-toggle="modal"
+			data-bs-target="#staticBackdrop"
+		>
+			Launch static backdrop modal
+		</button>
 
+		<!-- Modal -->
+		<div class="model1-wrapper">
+			<div
+				class="modal fade"
+				id="staticBackdrop"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered app-modal">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-12">
+									<div class="model1-image">
+										<img src="./down.png" alt="Main Image" />
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="title mb-2">Missing Files</div>
+									<div class="description">
+										Additional files are required for Installer
+									</div>
+								</div>
+								<div class="col-12 mt-3">
+									<button
+										data-bs-toggle="modal"
+										data-bs-target="#staticBackdrop2"
+										type="button"
+										class="btn btn-sm w-100 py-2"
+									>
+										GO
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="model2-wrapper">
+			<div
+				class="modal fade"
+				id="staticBackdrop2"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered app-modal">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-12">
+									<div class="title mb-2">How to install</div>
+								</div>
+								<div class="col-12">
+									<div class="model1-image">
+										<img src="./app2.jpg" alt="Main Image" />
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="description py-1">
+										Carefully read instructions of each additional file to
+										unpack them
+									</div>
+								</div>
+								<div class="col-12 mt-3">
+									<button
+										data-bs-toggle="modal"
+										data-bs-target="#exampleModal2"
+										type="button"
+										class="btn btn-sm w-100 py-2"
+										onclick="removeblur()"
+									>
+										GO
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script>
+			function pageloader() {
+				var loader = document.getElementById("loader-wrapper");
+				loader.style.display = "none";
+				var triggerBtn = document.getElementById("trigger-btn").click();
+			}
+
+			function removeblur() {
+				document
+					.getElementsByClassName("main-wrapper")[0]
+					.classList.remove("blur-bg");
+			}
+		</script>
+	</body>
 </html>
